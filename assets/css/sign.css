@@ -1,0 +1,147 @@
+*{
+    font-family: 'Poppins';
+}
+::selection{
+    color: #fff;
+    background-color: #233d4d;
+}
+.title{
+    font-weight: 700;
+    font-size: 28px;
+    margin-top: 110px;
+    margin-bottom: 75px;
+    color: #233d4d;
+}
+.title2{
+    font-weight: 700;
+    font-size: 28px;
+    margin-top: 45px;
+    margin-bottom: 75px;
+    color: #233d4d;
+}
+.form-control {
+    margin: 0 auto;
+    height: 43px;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, "Poppins";
+    background: transparent !important;
+    color: #000 !important;
+    border-color: rgba(173, 173, 173, 0.5) !important;
+    border-bottom-width: 2px !important; 
+}
+.form-control:active, .form-control:focus {
+    border-color: #0353a4 !important; 
+}
+.form-control:hover, .form-control:active, .form-control:focus {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important; 
+}
+.form-group {
+    position: relative; 
+}
+.form-group .form-control {
+    /* padding-right: 50px; */
+    border: none; 
+}
+.form .form-control {
+    border: none;
+    border-radius: 0px;
+    border-bottom: 1px solid #eee; 
+}
+.show-pass{
+    font-size: 15px;
+    color: rgb(184, 184, 184);
+    float: right;
+    position: absolute;
+    top: 9px;
+    right: 145px;
+    padding-right: 5px;
+    cursor: pointer;
+    display: block;
+    z-index: 1;
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+}
+.show-pass2{
+    font-size: 15px;
+    color: rgb(184, 184, 184);
+    float: right;
+    position: absolute;
+    top: 9px;
+    right: 145px;
+    padding-right: 5px;
+    cursor: pointer;
+    display: block;
+    z-index: 1;
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+}
+.show-pass:hover{
+    color: #0353a4;
+}
+.show-pass2:hover{
+    color: #0353a4;
+}
+#pass{
+    display: none;
+}
+.btn1{  
+    background: #007bff;
+    border: none;
+    border-radius: 7px;
+    padding: 12px 167px;
+    display: inline-block;
+    color: #fff;
+    position: relative;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 10px;
+    font-weight: 500;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.btn1:hover{
+    background-color: #0353a4;
+}
+.opsi{
+    margin-top: 165px;
+}
+.opsi2{
+    margin-top: 74px;
+}
+.txt1 {
+    font-size: 16px;
+    color: #666666;
+}
+.txt2 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #233d4d;
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+}
+.txt2:hover{
+    text-decoration: none;
+    color: #0353a4;
+}
+.loading-wrapper{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    z-index: 9999;
+}
+.loading-img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}

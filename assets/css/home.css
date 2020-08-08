@@ -1,0 +1,215 @@
+*{
+    font-family: 'Poppins';
+}
+::selection{
+    color: #fff;
+    background-color: #233d4d;
+}
+.title{
+    font-weight: 700;
+    font-size: 28px;
+    margin-top: 110px;
+    margin-bottom: 75px;
+    color: #233d4d;
+}
+.title2{
+    font-weight: 700;
+    font-size: 28px;
+    margin-top: 65px;
+    margin-bottom: 75px;
+    color: #233d4d;
+}
+.title3{
+    font-weight: 700;
+    font-size: 20px;
+    color: #233d4d;
+}
+.logo{
+    width: 75px;
+    margin-top: 0px;
+    margin-right: 50px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+/* .nav-link{
+    color: #f1f1f1;
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 20px;
+}
+.nav-link:hover{
+    color: #fff;
+} */
+#navbar{
+  top: 0;
+  z-index: 10;
+}
+/* .navbar{
+  transition: 0.2s;
+} */
+.navbar.sticky{
+    margin-top: -8px;
+    background: #0353a4;
+}
+section#banner{
+    width: 100%;
+    height: 30vh;
+    background-color: #0353a4;
+    background-size: cover;
+}
+.txt3{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.search-bar{
+    width: 50%;
+    height: 50px;
+    border: none;
+    padding: 20px;
+    padding-right: 56px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.icon{
+    font-size: 18px;
+    position: absolute;
+    cursor: pointer;
+    right: 26.75%;
+    top: 23.6%;
+    margin-left: 17px;
+    margin-top: 17px;
+    z-index: 1;
+    color: #0353a4;
+}
+.icon:hover{
+    color: #007bff;
+}
+@media(max-width: 800px) {
+    .icon{
+        position: absolute;
+        cursor: pointer;
+        right: 29%;
+        top: 24.3%;
+        margin-left: 17px;
+        margin-top: 17px;
+        z-index: 1;
+        color: #0353a4;
+    }
+}
+.nama{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+}
+.btndrop{
+    font-size: 18px;
+}
+#menu-toggle{
+    -webkit-transition: all .20s ease;
+    -moz-transition: all .20s ease;
+    -ms-transition: all .20s ease;
+    -o-transition: all .20s ease;
+    transition: all .20s ease;
+}
+.toggle-rotate{
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+}
+.btnfilter{  
+    background: #007bff;
+    border: none;
+    border-radius: 5px;
+    padding: 7px 50px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+    margin-bottom: -10px;
+}
+.btnfilter:hover{
+    background-color: #0353a4;
+}
+.card-title{
+    font-weight: 400;
+    font-size: 16px;
+}
+.card-title:hover{
+    text-decoration: none;
+}
+.detail{
+    display: block;
+    max-width: 232px;
+    min-height: 10px;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+}
+.item-price{
+    color: #0353a4;
+    font-weight: 600;
+}
+.footer{
+    background: #0353a4;
+}
+.text-footer{
+    color: #fff;
+    opacity: .50;
+    cursor: pointer;
+}
+.text-footer:hover{
+    color: #fff;
+    opacity: 1;
+    text-decoration: none;
+}
+.loading-wrapper{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    z-index: 9999;
+}
+.loading-img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+#scroll-to-top{
+    border-radius: 7px;
+    position: fixed;
+    bottom: 60px;
+    right: 20px;
+    padding: 20px 20px 15px 20px;
+    background: #007bff;
+    transition-property: background, color, bottom, opacity, visibility;
+    transition-duration: .25s;
+    z-index: 999;
+}
+#scroll-to-top[data-show="false"]{
+    bottom: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+#scroll-to-top i{
+    color: #fff;
+    opacity: .50;
+    font-size: 20px;
+}
+#scroll-to-top i:hover{
+    cursor: pointer;
+    color: #fff;
+    opacity: 1;
+}
